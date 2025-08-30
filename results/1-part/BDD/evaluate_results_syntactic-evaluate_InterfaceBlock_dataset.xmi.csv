@@ -1,0 +1,6 @@
+id,time_cost_native,time_cost_rule_only,time_cost_shots_1,time_cost_shots_3,time_cost_for_rule_and_shots_1,time_cost_for_rule_and_shots_3,sysml_xmi_native_score_by_llm,sysml_xmi_rule_only_score_by_llm,sysml_xmi_shots_1_score_by_llm,sysml_xmi_shots_3_score_by_llm,sysml_xmi_for_rule_and_shots_1_score_by_llm,sysml_xmi_for_rule_and_shots_3_score_by_llm,sysml_xmi_native_syntax_pass,sysml_xmi_rule_only_syntax_pass,sysml_xmi_shots_1_syntax_pass,sysml_xmi_shots_3_syntax_pass,sysml_xmi_for_rule_and_shots_1_syntax_pass,sysml_xmi_for_rule_and_shots_3_syntax_pass
+_18_1_ae502ce_1423410078232_694386_53923,13.034808,23.12683,8.410738,10.882151,11.29752,11.203234,0.625,0.75,1,1,1,1,1,1,1,1,1,1
+_18_0_1_ae502ce_1413163385985_893172_45976,24.564953,41.74133,14.534191,12.620503,12.933369,9.113973,0.375,0.75,0.625,0.875,0.75,0.875,1,1,1,1,1,1
+_18_0_1_ae502ce_1409322435220_221822_15370,15.908182,29.106607,9.233182,15.448259,15.930612,9.924918,0.625,0.75,0.25,0.5,0.75,0.5,1,0,1,1,1,1
+_18_0_1_ae502ce_1409014388334_438287_19193,14.001883,18.008654,9.738864,10.068735,10.987394,10.665835,0.375,0.375,0.875,0.875,0.75,0.5,1,0,1,1,1,1
+_18_0_1_ae502ce_1413163250662_689251_45930,21.114545,34.185668,15.354497,12.382607,18.557471,9.114079,0.375,0.75,0.75,0.75,0.75,0.875,1,1,1,1,1,1

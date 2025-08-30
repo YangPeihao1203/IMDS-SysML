@@ -1,0 +1,547 @@
+nohup: 忽略输入
+start experiment...
+Running experiment for directory: result/spacecraft/1-part/BDD
+Evaluate Experiment result file result/spacecraft/1-part/BDD/evaluate_results_syntactic-evaluate_ValueType_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_Block_dataset.xmi.csv as it is an evaluate result file.
+Skipping file evaluate_results_syntactic-evaluate_ValueType_dataset.xmi.csv as it is an evaluate result file.
+Skipping file evaluate_results_syntactic-evaluate_InterfaceBlock_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/1-part/BDD/evaluate_results_syntactic-evaluate_InterfaceBlock_dataset.xmi.csv already exists. Skipping this file.
+Evaluate Experiment result file result/spacecraft/1-part/BDD/evaluate_results_syntactic-evaluate_Block_dataset.xmi.csv already exists. Skipping this file.
+Running experiment for directory: result/spacecraft/1-part/IBD
+Evaluate Experiment result file result/spacecraft/1-part/IBD/evaluate_results_syntactic-evaluate_ItemFlow_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_InformationFlow_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/1-part/IBD/evaluate_results_syntactic-evaluate_Connector_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_BindingConnector_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/1-part/IBD/evaluate_results_syntactic-evaluate_InformationFlow_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_ItemFlow_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/1-part/IBD/evaluate_results_syntactic-evaluate_BindingConnector_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_Connector_dataset.xmi.csv as it is an evaluate result file.
+start experiment...
+Running experiment for directory: result/spacecraft/2-part/STM
+Loading dataset from result/spacecraft/2-part/STM/StateMachine_dataset.xmi.csv
+Loaded 7 records from result/spacecraft/2-part/STM/StateMachine_dataset.xmi.csv.
+Running evaluate experiment...
+Running in syntactic evaluation mode...
+Processing data with id _18_0_1_ae502ce_1419538833553_500135_45249 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: http://www.eclipse.org/uml2/3.0.0/UML（元素: Model）
+✅ 上传成功: 5df42209ff304f8dbf8c039141ed0c24.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4478797BE3438C0515D
+  🔐 ETag: "D5FA2972ECB7F48CC9EC0D08D71E2B82"
+  💡 CRC64: 16386972954674332842
+Syntax validation passed for data with id _18_0_1_ae502ce_1419538833553_500135_45249.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: http://www.eclipse.org/uml2/5.0.0/UML（元素: Model）
+未知的命名空间 URI: http://www.eclipse.org/uml2/5.0.0/UML（元素: Model）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 58cd7024161a4288be4d9863a20c99bc.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4505423BA31317E5C4C
+  🔐 ETag: "57405552932E8301F940BDB15F889C2E"
+  💡 CRC64: 1341543928626938207
+Syntax validation passed for data with id _18_0_1_ae502ce_1419538833553_500135_45249.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+XMI 解析失败: duplicate attribute: line 13, column 74
+XMI 内容验证失败
+Syntax validation failed for data with id _18_0_1_ae502ce_1419538833553_500135_45249.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: e10db669882349a7a98ef32755b9ab70.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4559932F1373638F7C6
+  🔐 ETag: "C01C2D66B1E4C71635D05F40C4527E9E"
+  💡 CRC64: 4315189907951342096
+Syntax validation passed for data with id _18_0_1_ae502ce_1419538833553_500135_45249.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 0e3d76e178304913b774a0ec117b2f10.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A458820F3F3236BF62E6
+  🔐 ETag: "EF0513BE43D803C072001504EA8429B1"
+  💡 CRC64: 17419811457310213670
+Syntax validation passed for data with id _18_0_1_ae502ce_1419538833553_500135_45249.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: b919002c6d5d409dba008e4542fe6c0c.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A45BAF1C2D3632B5649F
+  🔐 ETag: "5E3C11C530A584B6CA0DD1868BC68C55"
+  💡 CRC64: 1879652483145041743
+Syntax validation passed for data with id _18_0_1_ae502ce_1419538833553_500135_45249.
+Processing data with id _18_0_1_ae502ce_1419796237112_602830_45447 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: 00f4b01b14734a928229dc88a352de92.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A45D9F27CB3739B4FAB9
+  🔐 ETag: "624A8B354F9237B6B9294DC22B806415"
+  💡 CRC64: 16888677238792176579
+Syntax validation passed for data with id _18_0_1_ae502ce_1419796237112_602830_45447.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: http://www.eclipse.org/uml2/5.0.0/UML（元素: Model）
+未知的命名空间 URI: http://www.eclipse.org/uml2/5.0.0/UML（元素: Model）
+Project data not saved, but ready for further processing.
+✅ 上传成功: b0d9e2ff0a184ba8a22d5b9c13fbae03.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A45FB25822303546E60B
+  🔐 ETag: "664A5E3C549B02C8953BC09D09DB4551"
+  💡 CRC64: 9113513745712461562
+Syntax validation passed for data with id _18_0_1_ae502ce_1419796237112_602830_45447.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 0b5b56a5c83e48ac9d7fa295524292ee.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A46277F3A937399D1884
+  🔐 ETag: "356A5C86B876B106B7E6A9DBFB810E87"
+  💡 CRC64: 13040224021429590001
+Syntax validation passed for data with id _18_0_1_ae502ce_1419796237112_602830_45447.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 1b4643262d2b4eb3a501691c3d80f103.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A464AFCB04383101DFE9
+  🔐 ETag: "F0C4487B383B6484EE1C870EDDB6E395"
+  💡 CRC64: 15975270345309576022
+Syntax validation passed for data with id _18_0_1_ae502ce_1419796237112_602830_45447.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: de75902196924d5fb3835e5f6a616d8d.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4676D28FD3732E2C852
+  🔐 ETag: "10A2B62DC04A49800AB2F7DED3373B82"
+  💡 CRC64: 12217489850718762449
+Syntax validation passed for data with id _18_0_1_ae502ce_1419796237112_602830_45447.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 7159c8a5c67f4b96896497d61fb7cee5.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4690AD0713535A86D47
+  🔐 ETag: "69D7E6DCD3D515E50F94BEDD2E87FFA9"
+  💡 CRC64: 18376017964844573952
+Syntax validation passed for data with id _18_0_1_ae502ce_1419796237112_602830_45447.
+Processing data with id _18_0_1_ae502ce_1419537546993_566845_45183 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: http://schema.omg.org/spec/XMI/2.1（元素: Documentation）
+未知的命名空间 URI: http://www.eclipse.org/uml2/5.0.0/UML（元素: Model）
+✅ 上传成功: 4b5ae96b68a94ef48d2f8e2920f2fe33.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A46CD4BE203435A3F73B
+  🔐 ETag: "B07A2B9B444F4A1E71D9CBFED914F497"
+  💡 CRC64: 15486315778780010824
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537546993_566845_45183.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: 9c47b6e009044132820aff18c11843d2.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A46D478AB33239C5CED3
+  🔐 ETag: "EEEB71002ED35C9548B838E2EC89B50F"
+  💡 CRC64: 9355738224394620229
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537546993_566845_45183.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: ce0abdc4dedd448d92fec37df93355b7.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A46EE80D013636535AD2
+  🔐 ETag: "1DF579DB3D1D9307E1BBE44DD1BD3C9F"
+  💡 CRC64: 16323639211225246345
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537546993_566845_45183.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: cae3fd26c3884f0c9a8ef0527b700712.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A471E80D0137322067D2
+  🔐 ETag: "65F90ED20F960E1B6F80C800D3A2C663"
+  💡 CRC64: 1934992202500763764
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537546993_566845_45183.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 69acc58c734f446a87fecdb24344491a.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4739AB67D393179849A
+  🔐 ETag: "8E9B9A37BFFEC7899CA17648FD85CFD9"
+  💡 CRC64: 15709563167439425563
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537546993_566845_45183.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+Processing data with id _18_0_1_ae502ce_1419537411304_705182_45116 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: http://www.omg.org/sysml（元素: Model）
+线程处理出错: not well-formed (invalid token): line 35, column 0
+✅ 上传成功: 7785c8a0ce584a5b9b297761cbb1f3b3.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4765A53BB34366E6AE8
+  🔐 ETag: "6AD6BCFD2FD3D1793CF3F08C1A90443D"
+  💡 CRC64: 14863722955043644221
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537411304_705182_45116.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: http://www.omg.org/spec/SysML/20150709/SysML（元素: StateMachine）
+✅ 上传成功: ff1ba1a8657e4dfa8e7d0465c001bcf6.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A477E48B2B3432C6F723
+  🔐 ETag: "F8B456948388280B7345FC179BA080AC"
+  💡 CRC64: 13660203102937809562
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537411304_705182_45116.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 511534901c1743feb908159b255daf1f.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A478E48B2B33322AFE23
+  🔐 ETag: "80FE04A202A796622C827C2172F4AA5F"
+  💡 CRC64: 16395688885825596017
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537411304_705182_45116.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 45af77c835704ad6800486ed747ab2a6.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A47B478EF43330351DDA
+  🔐 ETag: "017DC41A042F818216CBC9044BFE25A5"
+  💡 CRC64: 18278832994421451511
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537411304_705182_45116.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: db1220a38040449c9fd7c4977c073533.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A47D9DBA123831021E2C
+  🔐 ETag: "441D5C34A780A6844BDAB2CDF282DDB4"
+  💡 CRC64: 14559535584220829963
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537411304_705182_45116.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 2bccd3bea729457ba5599c70810ade82.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A47F9DBA12383220292C
+  🔐 ETag: "51459A7BD88C3530336CEED0CA55F40F"
+  💡 CRC64: 8113879048229546509
+Syntax validation passed for data with id _18_0_1_ae502ce_1419537411304_705182_45116.
+Processing data with id _18_0_1_ae502ce_1419700636905_273169_45252 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: 0aa5decb191b466d89e1eb851a99d6f3.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4840AD071323409EA47
+  🔐 ETag: "25CB8AF4B47569320DA8097FCDDD8BE1"
+  💡 CRC64: 16857232205332299123
+Syntax validation passed for data with id _18_0_1_ae502ce_1419700636905_273169_45252.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: dcd9ee2e3c8a4b0ab4a7896d31b5a476.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A48734D7B333348CC384
+  🔐 ETag: "200A06FF24DF8E9378D633328FB527EB"
+  💡 CRC64: 3297965402184231595
+Syntax validation passed for data with id _18_0_1_ae502ce_1419700636905_273169_45252.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 22dc82bbb2e74e1abb3153d28ce147a7.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A48F0BFF4B393778FB3E
+  🔐 ETag: "6A8DB1F8324AA8275D9B98E2FA33A881"
+  💡 CRC64: 6937399277623310918
+Syntax validation passed for data with id _18_0_1_ae502ce_1419700636905_273169_45252.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 6099e1f78f504b6792589ef19c0d7d6f.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4951253C532333A7AD2
+  🔐 ETag: "18D7F5BBA81C1FB6BBB58C18BF795ABE"
+  💡 CRC64: 18444905061983718586
+Syntax validation passed for data with id _18_0_1_ae502ce_1419700636905_273169_45252.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 113f17bc7c014219997c49d0621d38d6.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A49F820F3F32336CB3E7
+  🔐 ETag: "8CF04A8E2D48775F01B1A3770B459432"
+  💡 CRC64: 10368972741872458094
+Syntax validation passed for data with id _18_0_1_ae502ce_1419700636905_273169_45252.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 30bb67496d3d425e89a19d1e2d129fea.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4A2478EF43031D6D0DA
+  🔐 ETag: "ADAED1E7F76B1B61F524CF8D9F0878C2"
+  💡 CRC64: 9203894756858928712
+Syntax validation passed for data with id _18_0_1_ae502ce_1419700636905_273169_45252.
+Processing data with id _18_1_ae502ce_1424476227934_31791_53089 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+已知命名空间元素: Documentation，命名空间: http://www.omg.org/spec/XMI/20131001
+已知命名空间元素: Model，命名空间: http://www.omg.org/spec/UML/20131001
+✅ 上传成功: 0a9183a6d64a478f9c9ea29407116096.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4A4352E0D3035E0BCC0
+  🔐 ETag: "8318FFCFA9FDD7F9B8784852106071D7"
+  💡 CRC64: 15671972372405975536
+请求服务器验证失败: 500 Server Error: Internal Server Error for url: http://169.254.88.201:8088/load?ossfilename=0a9183a6d64a478f9c9ea29407116096.xmi&localpath=I%3A%2Fmagic_dir%2F
+Syntax validation failed for data with id _18_1_ae502ce_1424476227934_31791_53089.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: 4f35a77f72f64a16976adf0fed3983a1.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4A4352E0D38373CBEC0
+  🔐 ETag: "4E81F3577928529D156E66183AA456A4"
+  💡 CRC64: 5147173437439351873
+Syntax validation passed for data with id _18_1_ae502ce_1424476227934_31791_53089.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 67e43d72f8f54d479d48acea863b89cf.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4A577F3A93739325B85
+  🔐 ETag: "ADF67206D154D0070770761089256DB2"
+  💡 CRC64: 9188455118866917564
+Syntax validation passed for data with id _18_1_ae502ce_1424476227934_31791_53089.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 11b9c63af23d454d8f3a7e8f0f768e3a.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4A7A08151323535ADD7
+  🔐 ETag: "0007A237F8E885C596631224D73C8679"
+  💡 CRC64: 715501256111425589
+Syntax validation passed for data with id _18_1_ae502ce_1424476227934_31791_53089.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 8fbbbccad45246c08f9fb67ab9a2c1fa.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4AA5E34143530634812
+  🔐 ETag: "878F0E6D46AC0204868B99C45EE865DB"
+  💡 CRC64: 7016997178501677486
+Syntax validation passed for data with id _18_1_ae502ce_1424476227934_31791_53089.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 5b0215b2324047b4b958e1183efcc359.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4AC34D7B333349A7185
+  🔐 ETag: "A8CA9082907EC231B6B87A9E75A199A6"
+  💡 CRC64: 1651783869653776542
+Syntax validation passed for data with id _18_1_ae502ce_1424476227934_31791_53089.
+Processing data with id _17_0_5_ae502ce_1404309694118_920434_11858 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: 55609ba3d54147d59d188a02cab1fad4.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4AE6D28FD3035A81754
+  🔐 ETag: "14406BD444F8EA44F933CB359ACFE11B"
+  💡 CRC64: 17165025769063090073
+Syntax validation passed for data with id _17_0_5_ae502ce_1404309694118_920434_11858.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+✅ 上传成功: 36d277fceef34909aa6d484753311d55.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4AFF15BB23632E0FD4F
+  🔐 ETag: "D41086ADD8961965F618FF1E22A6DBB9"
+  💡 CRC64: 14916640092446561744
+Syntax validation passed for data with id _17_0_5_ae502ce_1404309694118_920434_11858.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: a853b265581c4c9e95ebbbe2030ebfaf.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4B09F6B60313603056D
+  🔐 ETag: "9B68327C7B90E37AC851E3A16348B885"
+  💡 CRC64: 9339651193474408391
+Syntax validation passed for data with id _17_0_5_ae502ce_1404309694118_920434_11858.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 123e4e21396345ffaa5ec2e961c318ae.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4B35A53BB37353E7EE9
+  🔐 ETag: "9AC36CF3C0009A9528F109182B49C9AC"
+  💡 CRC64: 8945210336065270354
+Syntax validation passed for data with id _17_0_5_ae502ce_1404309694118_920434_11858.
+Processing column sysml_xmi_for_rule_and_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 8e8b0700982b40419e8bc181e49bcf55.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4B5BB04C532358DEBF9
+  🔐 ETag: "4124E2BDE79E8F8A2FE6D85A04B9C3B7"
+  💡 CRC64: 2729859998044890859
+Syntax validation passed for data with id _17_0_5_ae502ce_1404309694118_920434_11858.
+Processing column sysml_xmi_for_rule_and_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: ownedBehavior）
+未知的命名空间 URI: None（元素: ownedBehavior）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 73da70e6cb6647a38c0e2cf6ed44c1f0.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4B7478AB33236C923D5
+  🔐 ETag: "C97B975C4E11A86B449EF7366C2C053D"
+  💡 CRC64: 1236204575830806034
+Syntax validation passed for data with id _17_0_5_ae502ce_1404309694118_920434_11858.
+Running experiment for directory: result/spacecraft/2-part/REQ
+Evaluate Experiment result file result/spacecraft/2-part/REQ/evaluate_results_syntactic-evaluate_Requirement_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_Trace_dataset.xmi.csv as it is an evaluate result file.
+Skipping file evaluate_results_syntactic-evaluate_DeriveReqt_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/REQ/evaluate_results_syntactic-evaluate_Trace_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_Requirement_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/REQ/evaluate_results_syntactic-evaluate_DeriveReqt_dataset.xmi.csv already exists. Skipping this file.
+Running experiment for directory: result/spacecraft/2-part/PKG
+Skipping file evaluate_results_syntactic-evaluate_Package_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/PKG/evaluate_results_syntactic-evaluate_Package_dataset.xmi.csv already exists. Skipping this file.
+Running experiment for directory: result/spacecraft/2-part/UCD
+Skipping file evaluate_results_syntactic-evaluate_UseCase_dataset.xmi.csv as it is an evaluate result file.
+Loading dataset from result/spacecraft/2-part/UCD/Stakeholder_dataset.xmi.csv
+Loaded 1 records from result/spacecraft/2-part/UCD/Stakeholder_dataset.xmi.csv.
+Running evaluate experiment...
+Running in syntactic evaluation mode...
+Processing data with id _18_0_1_ae502ce_1409004081554_658210_13562 in thread...
+Processing column sysml_xmi_native for syntactic evaluation...
+Calling LLM to get evaluate result...
+已知命名空间元素: Documentation，命名空间: http://www.omg.org/spec/XMI/20131001
+已知命名空间元素: Model，命名空间: http://www.omg.org/spec/UML/20131001
+✅ 上传成功: 231792a3d1174894a31e36482e53a024.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4B9DCC23B3132269B4E
+  🔐 ETag: "CC70E3595738EF6D20D81E9551ECB06B"
+  💡 CRC64: 9959428783034830403
+请求服务器验证失败: 500 Server Error: Internal Server Error for url: http://169.254.88.201:8088/load?ossfilename=231792a3d1174894a31e36482e53a024.xmi&localpath=I%3A%2Fmagic_dir%2F
+Syntax validation failed for data with id _18_0_1_ae502ce_1409004081554_658210_13562.
+Processing column sysml_xmi_rule_only for syntactic evaluation...
+Calling LLM to get evaluate result...
+已知命名空间元素: Documentation，命名空间: http://www.omg.org/spec/XMI/20131001
+已知命名空间元素: Model，命名空间: http://www.omg.org/spec/UML/20131001
+✅ 上传成功: 44cff2e5ab034109b9821b1cb1e8a1f0.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4BAA08151313856FED7
+  🔐 ETag: "1A59ABBF535402510679E6631C9B18BD"
+  💡 CRC64: 12256245262202355324
+请求服务器验证失败: 500 Server Error: Internal Server Error for url: http://169.254.88.201:8088/load?ossfilename=44cff2e5ab034109b9821b1cb1e8a1f0.xmi&localpath=I%3A%2Fmagic_dir%2F
+Syntax validation failed for data with id _18_0_1_ae502ce_1409004081554_658210_13562.
+Processing column sysml_xmi_shots_1 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+未知的命名空间 URI: None（元素: packagedElement）
+Project data not saved, but ready for further processing.
+✅ 上传成功: 39725a7e30b74bd0a5f680a049f9fc94.xmi
+  📦 状态码: 200
+  📄 请求 ID: 68A2A4BAB258223030BB8C0D
+  🔐 ETag: "5AE4EEE9DE71D9D8C232D0EDE4BF6EBE"
+  💡 CRC64: 8810061641152087498
+Syntax validation passed for data with id _18_0_1_ae502ce_1409004081554_658210_13562.
+Processing column sysml_xmi_shots_3 for syntactic evaluation...
+Calling LLM to get evaluate result...
+未知的命名空间 URI: None（元素: packagedElement）
+线程处理出错: not well-formed (invalid token): line 59, column 0
+Evaluate Experiment result file result/spacecraft/2-part/UCD/evaluate_results_syntactic-evaluate_UseCase_dataset.xmi.csv already exists. Skipping this file.
+Running experiment for directory: result/spacecraft/2-part/PAR
+Evaluate Experiment result file result/spacecraft/2-part/PAR/evaluate_results_syntactic-evaluate_ConstraintBlock_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_caused_by_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/PAR/evaluate_results_syntactic-evaluate_caused_by_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_ConstraintBlock_dataset.xmi.csv as it is an evaluate result file.
+Running experiment for directory: result/spacecraft/2-part/ACT
+Skipping file evaluate_results_syntactic-evaluate_TestCase_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/ACT/evaluate_results_syntactic-evaluate_Activity_dataset.xmi.csv already exists. Skipping this file.
+Skipping file evaluate_results_syntactic-evaluate_Activity_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/ACT/evaluate_results_syntactic-evaluate_TestCase_dataset.xmi.csv already exists. Skipping this file.
+Running experiment for directory: result/spacecraft/2-part/SEQ
+Skipping file evaluate_results_syntactic-evaluate_Interaction_dataset.xmi.csv as it is an evaluate result file.
+Evaluate Experiment result file result/spacecraft/2-part/SEQ/evaluate_results_syntactic-evaluate_Interaction_dataset.xmi.csv already exists. Skipping this file.
+Experiment completed.

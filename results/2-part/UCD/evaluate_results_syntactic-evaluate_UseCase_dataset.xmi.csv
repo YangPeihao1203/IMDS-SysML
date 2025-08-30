@@ -1,0 +1,499 @@
+id,time_cost_native,time_cost_rule_only,time_cost_shots_1,sysml_xmi_shots_3,time_cost_shots_3,retrived_shots_for_rule_and_shots_1,sysml_xmi_for_rule_and_shots_1,time_cost_for_rule_and_shots_1,retrived_shots_for_rule_and_shots_3,sysml_xmi_for_rule_and_shots_3,time_cost_for_rule_and_shots_3,sysml_xmi_native_score_by_llm,sysml_xmi_rule_only_score_by_llm,sysml_xmi_shots_1_score_by_llm,sysml_xmi_shots_3_score_by_llm,sysml_xmi_for_rule_and_shots_1_score_by_llm,sysml_xmi_for_rule_and_shots_3_score_by_llm,sysml_xmi_native_syntax_pass,sysml_xmi_rule_only_syntax_pass,sysml_xmi_shots_1_syntax_pass,sysml_xmi_shots_3_syntax_pass,sysml_xmi_for_rule_and_shots_1_syntax_pass,sysml_xmi_for_rule_and_shots_3_syntax_pass
+_18_0_1_ae502ce_1421596384113_41036_46946,39.487443,29.865235,41.27345,,,,,,,,,,,,,,,,,,,,
+"3""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_5_2_8850270_1512563539342_371081_15464"""" visibility=""""public"""" behavior=""""_18_5_2_8850270_1512563539351_675419_15465"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402220_317765_16190""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:ActivityFinalNode"""" xmi:id=""""_18_5_2_8850270_1512563614443_599246_15483"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:MergeNode"""" xmi:id=""""_18_5_2_8850270_1512563650707_189998_15494"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_5_2_8850270_1512563665542_59889_15508"""" visibility=""""public"""" behavior=""""_18_5_2_8850270_1512563665545_607980_15509"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"    <result xmi:type=""""uml:OutputPin"""" xmi:id=""""_18_5_2_8850270_1512563912053_152479_15547"""" name=""""Cabin Temp"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_5_2_8850270_1512563873108_571581_15524"""" visibility=""""public"""" behavior=""""_18_5_3_8850270_1519394639161_971298_15794"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402206_247351_16184""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"    <argument xmi:type=""""uml:InputPin"""" xmi:id=""""_18_5_3_8850270_1519394644721_52759_15800"""" name=""""Cabin Temp"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:MergeNode"""" xmi:id=""""_18_5_2_8850270_1512564064971_793513_15601"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+</packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402233_314332_16196"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402206_247351_16184""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402237_923581_16197"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402214_876685_16187""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402237_851768_16198"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402220_317765_16190""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402238_494573_16199"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<ownedAttribute xmi:type=""""uml:Property"""" xmi:id=""""_18_5_2_8850270_1512474961671_755814_14996"""" visibility=""""public"""" type=""""_18_5_2_8850270_1512474944659_986984_14977"""" association=""""_18_5_2_8850270_1512474961671_33364_14994""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<packagedElement xmi:type=""""uml:Class"""" xmi:id=""""_18_5_2_8850270_1509371701451_525129_14967"""" name=""""Vehicle Occupant"""">",,,,,,,,,,,,,,,,,,,,,,,
+"  <ownedAttribute xmi:type=""""uml:Property"""" xmi:id=""""_18_5_2_8850270_1512474961671_755814_14996"""" visibility=""""public"""" type=""""_18_5_2_8850270_1512474944659_986984_14977"""" association=""""_18_5_2_8850270_1512474961671_33364_14994""""/>",,,,,,,,,,,,,,,,,,,,,,,
+</packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:Block xmi:id=""""_18_5_2_8850270_1509371701451_696049_14968"""" base_Class=""""_18_5_2_8850270_1509371701451_525129_14967""""/>",,,,,,,,,,,,,,,,,,,,,,,
+" target model: <packagedElement xmi:type=""""uml:Package"""" xmi:id=""""_18_5_2_8850270_1512474897203_187805_14858"""" name=""""2 Use Cases"""">",,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_5_2_8850270_1512474944659_986984_14977"""" name=""""Feel Comfortable Temperature"""" classifierBehavior=""""_18_5_2_8850270_1512475147304_376776_15014"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <subject xmi:idref=""""_18_5_2_8850270_1509106922453_570967_14687""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"    <ownedBehavior xmi:type=""""uml:Activity"""" xmi:id=""""_18_5_2_8850270_1512475147304_376776_15014"""" name=""""Feel Comfortable Temperature"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <partition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <partition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475508675_494775_15172"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475507405_220514_15165"""" target=""""_18_5_2_8850270_1512475349694_333906_15046"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475508675_143346_15173"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475532006_231105_15177"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349694_333906_15046"""" target=""""_18_5_2_8850270_1512475349694_289070_15047"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475532006_274378_15178"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475566052_549766_15193"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_616713_15048"""" target=""""_18_5_2_8850270_1512475349709_614504_15049"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475566052_253152_15194"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475575809_490467_15200"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_614504_15049"""" target=""""_18_5_2_8850270_1512475349709_137796_15050"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475575810_318077_15201"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475579170_120905_15205"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_137796_15050"""" target=""""_18_5_2_8850270_1512475349709_289860_15051"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475579170_136221_15206"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475585782_172122_15214"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_289860_15051"""" target=""""_18_5_2_8850270_1512477338707_617724_15383"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475585783_926954_15215"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475591749_193074_15221"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512477301119_99457_15371"""" target=""""_18_5_2_8850270_1512475349709_234569_15054"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475591749_549662_15222"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475607035_587456_15230"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_234569_15054"""" target=""""_18_5_2_8850270_1512475349709_273098_15053"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475607035_744444_15231"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475610071_594616_15238"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_273098_15053"""" target=""""_18_5_2_8850270_1512475610056_950571_15235"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475610071_627330_15239"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow""""",,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Example 3:,,,,,,,,,,,,,,,,,,,,,,,
+requirement: The system shall perform the Use Case function that includes the Included Use Case behavior (implemented by either UC1 or UC2) and may be extended by the Extended Use Case functionality when condition1 occurs.,,,,,,,,,,,,,,,,,,,,,,,
+ context: nan,,,,,,,,,,,,,,,,,,,,,,,
+" target model: <packagedElement xmi:type=""""uml:Package"""" xmi:id=""""_18_0beta_8f90291_1393586854382_863076_5085"""" name=""""Functional Package"""">",,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854445_763989_5253"""" name=""""Use Case"""" classifierBehavior=""""_18_0beta_8f90291_1393586854481_114753_5353"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <ownedComment xmi:type=""""uml:Comment"""" xmi:id=""""_18_0beta_8f90291_1393586854440_241396_5204"""" body=""""The specification of a set of actions performed by a system",,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+  - More details can be provided in description,,,,,,,,,,,,,,,,,,,,,,,
+>,,,,,,,,,,,,,,,,,,,,,,,
+"      <annotatedElement xmi:idref=""""_18_0beta_8f90291_1393586854445_763989_5253""""/>",,,,,,,,,,,,,,,,,,,,,,,
+    </ownedComment>,,,,,,,,,,,,,,,,,,,,,,,
+"    <ownedBehavior xmi:type=""""uml:Activity"""" xmi:id=""""_18_0beta_8f90291_1393586854481_114753_5353"""" name=""""Use Case"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_0beta_8f90291_1393586854341_84647_4924"""" visibility=""""public"""" source=""""_18_0beta_8f90291_1393586854345_834134_4975"""" target=""""_18_0beta_8f90291_1393586854351_549520_4997"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_0beta_8f90291_1393586854313_54177_4831"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_0beta_8f90291_1393586854391_94198_5126"""" visibility=""""public"""" source=""""_18_0beta_8f90291_1393586854351_549520_4997"""" target=""""_18_0beta_8f90291_1393586854305_928883_4728"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_0beta_8f90291_1393586854344_928402_4959"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <node xmi:type=""""uml:InitialNode"""" xmi:id=""""_18_0beta_8f90291_1393586854345_834134_4975"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <node xmi:type=""""uml:ActivityFinalNode"""" xmi:id=""""_18_0beta_8f90291_1393586854305_928883_4728"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_0beta_8f90291_1393586854351_549520_4997"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+    </ownedBehavior>,,,,,,,,,,,,,,,,,,,,,,,
+"    <extensionPoint xmi:type=""""uml:ExtensionPoint"""" xmi:id=""""_18_0beta_8f90291_1393586854386_201966_5095"""" name=""""condition1"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <extension xmi:idref=""""_18_0beta_8f90291_1393586854362_910142_5023""""/>",,,,,,,,,,,,,,,,,,,,,,,
+    </extensionPoint>,,,,,,,,,,,,,,,,,,,,,,,
+"    <include xmi:type=""""uml:Include"""" xmi:id=""""_18_0beta_8f90291_1393586854386_301459_5102"""" visibility=""""public"""" addition=""""_18_0beta_8f90291_1393586854372_425176_5050"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <ownedComment xmi:type=""""uml:Comment"""" xmi:id=""""_18_0beta_8f90291_1393586854477_296666_5318"""" body=""""Defines that a use case contains the behavior defined in included use case.",,,,,,,,,,,,,,,,,,,,,,,
+>,,,,,,,,,,,,,,,,,,,,,,,
+"        <annotatedElement xmi:idref=""""_18_0beta_8f90291_1393586854386_301459_5102""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </ownedComment>,,,,,,,,,,,,,,,,,,,,,,,
+    </include>,,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854372_425176_5050"""" name=""""Included Use Case"""" isAbstract=""""true""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854344_960289_4954"""" name=""""Extended Use Case"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <extend xmi:type=""""uml:Extend"""" xmi:id=""""_18_0beta_8f90291_1393586854362_910142_5023"""" visibility=""""public"""" extendedCase=""""_18_0beta_8f90291_1393586854445_763989_5253"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <extensionLocation xmi:idref=""""_18_0beta_8f90291_1393586854386_201966_5095""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <ownedComment xmi:type=""""uml:Comment"""" xmi:id=""""_18_0beta_8f90291_1393586854386_683288_5103"""" body=""""specifies that the behavior of a use case may be extended by the behavior of another (usually supplementary) use case.",,,,,,,,,,,,,,,,,,,,,,,
+>,,,,,,,,,,,,,,,,,,,,,,,
+"        <annotatedElement xmi:idref=""""_18_0beta_8f90291_1393586854362_910142_5023""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </ownedComment>,,,,,,,,,,,,,,,,,,,,,,,
+    </extend>,,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854440_683940_5207"""" name=""""UC1"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <generalization xmi:type=""""uml:Generalization"""" xmi:id=""""_18_0beta_8f90291_1393586854466_688714_5305"""" general=""""_18_0beta_8f90291_1393586854372_425176_5050""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854383_924574_5090"""" name=""""UC2"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <generalization xmi:type=""""uml:Generalization"""" xmi:id=""""_18_0beta_8f90291_1393586854466_107472_5304"""" general=""""_18_0beta_8f90291_1393586854372_425176_5050""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"</packagedElement>""",27.385594,,,,,,,,,,,,,,,,,,,,,,
+"3""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_5_2_8850270_1512563539342_371081_15464"""" visibility=""""public"""" behavior=""""_18_5_2_8850270_1512563539351_675419_15465"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402220_317765_16190""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:ActivityFinalNode"""" xmi:id=""""_18_5_2_8850270_1512563614443_599246_15483"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:MergeNode"""" xmi:id=""""_18_5_2_8850270_1512563650707_189998_15494"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_5_2_8850270_1512563665542_59889_15508"""" visibility=""""public"""" behavior=""""_18_5_2_8850270_1512563665545_607980_15509"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"    <result xmi:type=""""uml:OutputPin"""" xmi:id=""""_18_5_2_8850270_1512563912053_152479_15547"""" name=""""Cabin Temp"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_5_2_8850270_1512563873108_571581_15524"""" visibility=""""public"""" behavior=""""_18_5_3_8850270_1519394639161_971298_15794"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402206_247351_16184""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"    <argument xmi:type=""""uml:InputPin"""" xmi:id=""""_18_5_3_8850270_1519394644721_52759_15800"""" name=""""Cabin Temp"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+"  <node xmi:type=""""uml:MergeNode"""" xmi:id=""""_18_5_2_8850270_1512564064971_793513_15601"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <inPartition xmi:idref=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </node>,,,,,,,,,,,,,,,,,,,,,,,
+</packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402233_314332_16196"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402206_247351_16184""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402237_923581_16197"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402214_876685_16187""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402237_851768_16198"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402220_317765_16190""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:AllocateActivityPartition xmi:id=""""_18_5_2_8850270_1512728402238_494573_16199"""" base_ActivityPartition=""""_18_5_2_8850270_1512728402227_205351_16193""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<ownedAttribute xmi:type=""""uml:Property"""" xmi:id=""""_18_5_2_8850270_1512474961671_755814_14996"""" visibility=""""public"""" type=""""_18_5_2_8850270_1512474944659_986984_14977"""" association=""""_18_5_2_8850270_1512474961671_33364_14994""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"<packagedElement xmi:type=""""uml:Class"""" xmi:id=""""_18_5_2_8850270_1509371701451_525129_14967"""" name=""""Vehicle Occupant"""">",,,,,,,,,,,,,,,,,,,,,,,
+"  <ownedAttribute xmi:type=""""uml:Property"""" xmi:id=""""_18_5_2_8850270_1512474961671_755814_14996"""" visibility=""""public"""" type=""""_18_5_2_8850270_1512474944659_986984_14977"""" association=""""_18_5_2_8850270_1512474961671_33364_14994""""/>",,,,,,,,,,,,,,,,,,,,,,,
+</packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"<sysml:Block xmi:id=""""_18_5_2_8850270_1509371701451_696049_14968"""" base_Class=""""_18_5_2_8850270_1509371701451_525129_14967""""/>",,,,,,,,,,,,,,,,,,,,,,,
+" target model: <packagedElement xmi:type=""""uml:Package"""" xmi:id=""""_18_5_2_8850270_1512474897203_187805_14858"""" name=""""2 Use Cases"""">",,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_5_2_8850270_1512474944659_986984_14977"""" name=""""Feel Comfortable Temperature"""" classifierBehavior=""""_18_5_2_8850270_1512475147304_376776_15014"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <subject xmi:idref=""""_18_5_2_8850270_1509106922453_570967_14687""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"    <ownedBehavior xmi:type=""""uml:Activity"""" xmi:id=""""_18_5_2_8850270_1512475147304_376776_15014"""" name=""""Feel Comfortable Temperature"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <partition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <partition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475508675_494775_15172"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475507405_220514_15165"""" target=""""_18_5_2_8850270_1512475349694_333906_15046"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475508675_143346_15173"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475532006_231105_15177"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349694_333906_15046"""" target=""""_18_5_2_8850270_1512475349694_289070_15047"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475532006_274378_15178"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475566052_549766_15193"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_616713_15048"""" target=""""_18_5_2_8850270_1512475349709_614504_15049"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475566052_253152_15194"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475575809_490467_15200"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_614504_15049"""" target=""""_18_5_2_8850270_1512475349709_137796_15050"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475575810_318077_15201"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475579170_120905_15205"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_137796_15050"""" target=""""_18_5_2_8850270_1512475349709_289860_15051"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475579170_136221_15206"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475585782_172122_15214"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_289860_15051"""" target=""""_18_5_2_8850270_1512477338707_617724_15383"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475585783_926954_15215"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475591749_193074_15221"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512477301119_99457_15371"""" target=""""_18_5_2_8850270_1512475349709_234569_15054"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475591749_549662_15222"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475607035_587456_15230"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_234569_15054"""" target=""""_18_5_2_8850270_1512475349709_273098_15053"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909216_868024_15414""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475607035_744444_15231"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_5_2_8850270_1512475610071_594616_15238"""" visibility=""""public"""" source=""""_18_5_2_8850270_1512475349709_273098_15053"""" target=""""_18_5_2_8850270_1512475610056_950571_15235"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <inPartition xmi:idref=""""_18_5_2_8850270_1512477909200_276441_15411""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_5_2_8850270_1512475610071_627330_15239"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow""""",,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Example 3:,,,,,,,,,,,,,,,,,,,,,,,
+requirement: The system shall perform the Use Case function that includes the Included Use Case behavior (implemented by either UC1 or UC2) and may be extended by the Extended Use Case functionality when condition1 occurs.,,,,,,,,,,,,,,,,,,,,,,,
+ context: nan,,,,,,,,,,,,,,,,,,,,,,,
+" target model: <packagedElement xmi:type=""""uml:Package"""" xmi:id=""""_18_0beta_8f90291_1393586854382_863076_5085"""" name=""""Functional Package"""">",,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854445_763989_5253"""" name=""""Use Case"""" classifierBehavior=""""_18_0beta_8f90291_1393586854481_114753_5353"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <ownedComment xmi:type=""""uml:Comment"""" xmi:id=""""_18_0beta_8f90291_1393586854440_241396_5204"""" body=""""The specification of a set of actions performed by a system",,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+#NAME?,,,,,,,,,,,,,,,,,,,,,,,
+  - More details can be provided in description,,,,,,,,,,,,,,,,,,,,,,,
+>,,,,,,,,,,,,,,,,,,,,,,,
+"      <annotatedElement xmi:idref=""""_18_0beta_8f90291_1393586854445_763989_5253""""/>",,,,,,,,,,,,,,,,,,,,,,,
+    </ownedComment>,,,,,,,,,,,,,,,,,,,,,,,
+"    <ownedBehavior xmi:type=""""uml:Activity"""" xmi:id=""""_18_0beta_8f90291_1393586854481_114753_5353"""" name=""""Use Case"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_0beta_8f90291_1393586854341_84647_4924"""" visibility=""""public"""" source=""""_18_0beta_8f90291_1393586854345_834134_4975"""" target=""""_18_0beta_8f90291_1393586854351_549520_4997"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_0beta_8f90291_1393586854313_54177_4831"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <edge xmi:type=""""uml:ControlFlow"""" xmi:id=""""_18_0beta_8f90291_1393586854391_94198_5126"""" visibility=""""public"""" source=""""_18_0beta_8f90291_1393586854351_549520_4997"""" target=""""_18_0beta_8f90291_1393586854305_928883_4728"""">",,,,,,,,,,,,,,,,,,,,,,,
+"        <weight xmi:type=""""uml:LiteralUnlimitedNatural"""" xmi:id=""""_18_0beta_8f90291_1393586854344_928402_4959"""" value=""""1""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </edge>,,,,,,,,,,,,,,,,,,,,,,,
+"      <node xmi:type=""""uml:InitialNode"""" xmi:id=""""_18_0beta_8f90291_1393586854345_834134_4975"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <node xmi:type=""""uml:ActivityFinalNode"""" xmi:id=""""_18_0beta_8f90291_1393586854305_928883_4728"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <node xmi:type=""""uml:CallBehaviorAction"""" xmi:id=""""_18_0beta_8f90291_1393586854351_549520_4997"""" visibility=""""public""""/>",,,,,,,,,,,,,,,,,,,,,,,
+    </ownedBehavior>,,,,,,,,,,,,,,,,,,,,,,,
+"    <extensionPoint xmi:type=""""uml:ExtensionPoint"""" xmi:id=""""_18_0beta_8f90291_1393586854386_201966_5095"""" name=""""condition1"""" visibility=""""public"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <extension xmi:idref=""""_18_0beta_8f90291_1393586854362_910142_5023""""/>",,,,,,,,,,,,,,,,,,,,,,,
+    </extensionPoint>,,,,,,,,,,,,,,,,,,,,,,,
+"    <include xmi:type=""""uml:Include"""" xmi:id=""""_18_0beta_8f90291_1393586854386_301459_5102"""" visibility=""""public"""" addition=""""_18_0beta_8f90291_1393586854372_425176_5050"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <ownedComment xmi:type=""""uml:Comment"""" xmi:id=""""_18_0beta_8f90291_1393586854477_296666_5318"""" body=""""Defines that a use case contains the behavior defined in included use case.",,,,,,,,,,,,,,,,,,,,,,,
+>,,,,,,,,,,,,,,,,,,,,,,,
+"        <annotatedElement xmi:idref=""""_18_0beta_8f90291_1393586854386_301459_5102""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </ownedComment>,,,,,,,,,,,,,,,,,,,,,,,
+    </include>,,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854372_425176_5050"""" name=""""Included Use Case"""" isAbstract=""""true""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854344_960289_4954"""" name=""""Extended Use Case"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <extend xmi:type=""""uml:Extend"""" xmi:id=""""_18_0beta_8f90291_1393586854362_910142_5023"""" visibility=""""public"""" extendedCase=""""_18_0beta_8f90291_1393586854445_763989_5253"""">",,,,,,,,,,,,,,,,,,,,,,,
+"      <extensionLocation xmi:idref=""""_18_0beta_8f90291_1393586854386_201966_5095""""/>",,,,,,,,,,,,,,,,,,,,,,,
+"      <ownedComment xmi:type=""""uml:Comment"""" xmi:id=""""_18_0beta_8f90291_1393586854386_683288_5103"""" body=""""specifies that the behavior of a use case may be extended by the behavior of another (usually supplementary) use case.",,,,,,,,,,,,,,,,,,,,,,,
+>,,,,,,,,,,,,,,,,,,,,,,,
+"        <annotatedElement xmi:idref=""""_18_0beta_8f90291_1393586854362_910142_5023""""/>",,,,,,,,,,,,,,,,,,,,,,,
+      </ownedComment>,,,,,,,,,,,,,,,,,,,,,,,
+    </extend>,,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854440_683940_5207"""" name=""""UC1"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <generalization xmi:type=""""uml:Generalization"""" xmi:id=""""_18_0beta_8f90291_1393586854466_688714_5305"""" general=""""_18_0beta_8f90291_1393586854372_425176_5050""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"  <packagedElement xmi:type=""""uml:UseCase"""" xmi:id=""""_18_0beta_8f90291_1393586854383_924574_5090"""" name=""""UC2"""">",,,,,,,,,,,,,,,,,,,,,,,
+"    <generalization xmi:type=""""uml:Generalization"""" xmi:id=""""_18_0beta_8f90291_1393586854466_107472_5304"""" general=""""_18_0beta_8f90291_1393586854372_425176_5050""""/>",,,,,,,,,,,,,,,,,,,,,,,
+  </packagedElement>,,,,,,,,,,,,,,,,,,,,,,,
+"</packagedElement>""",0.625,0.5,1,1,1,1,,,,,,,,,,,,,,,,,
+_18_0_1_ae502ce_1409407554808_548210_13478,49.407545,51.581189,30.928453,"<packagedElement xmi:type=""uml:Package"" xmi:id=""_mission_pkg"" name=""Mission Package"">
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_main_mission"" name=""Perform Mission"">
+    <ownedBehavior xmi:type=""uml:Activity"" xmi:id=""_mission_activity"" name=""Mission Activity"">
+      <node xmi:type=""uml:InitialNode"" xmi:id=""_start_mission"" visibility=""public""/>
+      <node xmi:type=""uml:ActivityFinalNode"" xmi:id=""_end_mission"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_observe_data"" name=""Provide Observation Data"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_maintain_ops"" name=""Maintain Operations"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_control_traj"" name=""Control Trajectory"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_separate_lv"" name=""Separate from Launch Vehicle"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_launch_sc"" name=""Launch Spacecraft"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_deploy_mech"" name=""Deploy Mechanisms"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_handle_faults"" name=""Mitigate Failures"" visibility=""public""/>
+      
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow1"" source=""_start_mission"" target=""_observe_data""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow2"" source=""_observe_data"" target=""_maintain_ops""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow3"" source=""_maintain_ops"" target=""_control_traj""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow4"" source=""_control_traj"" target=""_separate_lv""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow5"" source=""_separate_lv"" target=""_launch_sc""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow6"" source=""_launch_sc"" target=""_deploy_mech""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_flow7"" source=""_deploy_mech"" target=""_end_mission""/>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_fault_flow"" source=""_handle_faults"" target=""_end_mission""/>
+    </ownedBehavior>
+  </packagedElement>
+  
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_observation_uc"" name=""Provide Observation Data""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_ops_uc"" name=""Maintain Operations""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_traj_uc"" name=""Control Trajectory""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_sep_uc"" name=""Separate from Launch Vehicle""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_launch_uc"" name=""Launch Spacecraft""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_deploy_uc"" name=""Deploy Mechanisms""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_fault_uc"" name=""Mitigate Failures""/>
+  
+  <packagedElement xmi:type=""uml:Include"" xmi:id=""_include1"" addition=""_observation_uc""/>
+  <packagedElement xmi:type=""uml:Include"" xmi:id=""_include2"" addition=""_ops_uc""/>
+  <packagedElement xmi:type=""uml:Include"" xmi:id=""_include3"" addition=""_traj_uc""/>
+  <packagedElement xmi:type=""uml:Include"" xmi:id=""_include4"" addition=""_sep_uc""/>
+  <packagedElement xmi:type=""uml:Include"" xmi:id=""_include5"" addition=""_launch_uc""/>
+  <packagedElement xmi:type=""uml:Include"" xmi:id=""_include6"" addition=""_deploy_uc""/>
+  <packagedElement xmi:type=""uml:Extend"" xmi:id=""_extend1"" extendedCase=""_main_mission"" extensionLocation=""_fault_condition"">
+    <condition xmi:type=""uml:Constraint"" xmi:id=""_fault_cond"" name=""Fault Detected""/>
+  </packagedElement>
+  
+  <extensionPoint xmi:type=""uml:ExtensionPoint"" xmi:id=""_fault_condition"" name=""Fault Detection"" visibility=""public""/>
+</packagedElement>",45.882407,"Example 1:
+requirement: The system shall perform the Use Case function that includes the Included Use Case behavior (implemented by either UC1 or UC2) and may be extended by the Extended Use Case functionality when condition1 occurs.
+ context: nan
+ target model: <packagedElement xmi:type=""uml:Package"" xmi:id=""_18_0beta_8f90291_1393586854382_863076_5085"" name=""Functional Package"">
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854445_763989_5253"" name=""Use Case"" classifierBehavior=""_18_0beta_8f90291_1393586854481_114753_5353"">
+    <ownedComment xmi:type=""uml:Comment"" xmi:id=""_18_0beta_8f90291_1393586854440_241396_5204"" body=""The specification of a set of actions performed by a system, which yields an observable result that is, typically, of value for one or more actors or other stakeholders of the system.
+- Captures some actor-visible function
+- Achieves a discrete goal for the actor
+- Specifies complete functionality
+- Is named using a verb-noun combination, â€œdo this to thatâ€?  - 2-5 words is recommended name length
+  - More details can be provided in description
+"">
+      <annotatedElement xmi:idref=""_18_0beta_8f90291_1393586854445_763989_5253""/>
+    </ownedComment>
+    <ownedBehavior xmi:type=""uml:Activity"" xmi:id=""_18_0beta_8f90291_1393586854481_114753_5353"" name=""Use Case"">
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_18_0beta_8f90291_1393586854341_84647_4924"" visibility=""public"" source=""_18_0beta_8f90291_1393586854345_834134_4975"" target=""_18_0beta_8f90291_1393586854351_549520_4997"">
+        <weight xmi:type=""uml:LiteralUnlimitedNatural"" xmi:id=""_18_0beta_8f90291_1393586854313_54177_4831"" value=""1""/>
+      </edge>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_18_0beta_8f90291_1393586854391_94198_5126"" visibility=""public"" source=""_18_0beta_8f90291_1393586854351_549520_4997"" target=""_18_0beta_8f90291_1393586854305_928883_4728"">
+        <weight xmi:type=""uml:LiteralUnlimitedNatural"" xmi:id=""_18_0beta_8f90291_1393586854344_928402_4959"" value=""1""/>
+      </edge>
+      <node xmi:type=""uml:InitialNode"" xmi:id=""_18_0beta_8f90291_1393586854345_834134_4975"" visibility=""public""/>
+      <node xmi:type=""uml:ActivityFinalNode"" xmi:id=""_18_0beta_8f90291_1393586854305_928883_4728"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_18_0beta_8f90291_1393586854351_549520_4997"" visibility=""public""/>
+    </ownedBehavior>
+    <extensionPoint xmi:type=""uml:ExtensionPoint"" xmi:id=""_18_0beta_8f90291_1393586854386_201966_5095"" name=""condition1"" visibility=""public"">
+      <extension xmi:idref=""_18_0beta_8f90291_1393586854362_910142_5023""/>
+    </extensionPoint>
+    <include xmi:type=""uml:Include"" xmi:id=""_18_0beta_8f90291_1393586854386_301459_5102"" visibility=""public"" addition=""_18_0beta_8f90291_1393586854372_425176_5050"">
+      <ownedComment xmi:type=""uml:Comment"" xmi:id=""_18_0beta_8f90291_1393586854477_296666_5318"" body=""Defines that a use case contains the behavior defined in included use case.
+"">
+        <annotatedElement xmi:idref=""_18_0beta_8f90291_1393586854386_301459_5102""/>
+      </ownedComment>
+    </include>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854372_425176_5050"" name=""Included Use Case"" isAbstract=""true""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854344_960289_4954"" name=""Extended Use Case"">
+    <extend xmi:type=""uml:Extend"" xmi:id=""_18_0beta_8f90291_1393586854362_910142_5023"" visibility=""public"" extendedCase=""_18_0beta_8f90291_1393586854445_763989_5253"">
+      <extensionLocation xmi:idref=""_18_0beta_8f90291_1393586854386_201966_5095""/>
+      <ownedComment xmi:type=""uml:Comment"" xmi:id=""_18_0beta_8f90291_1393586854386_683288_5103"" body=""specifies that the behavior of a use case may be extended by the behavior of another (usually supplementary) use case.
+"">
+        <annotatedElement xmi:idref=""_18_0beta_8f90291_1393586854362_910142_5023""/>
+      </ownedComment>
+    </extend>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854440_683940_5207"" name=""UC1"">
+    <generalization xmi:type=""uml:Generalization"" xmi:id=""_18_0beta_8f90291_1393586854466_688714_5305"" general=""_18_0beta_8f90291_1393586854372_425176_5050""/>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854383_924574_5090"" name=""UC2"">
+    <generalization xmi:type=""uml:Generalization"" xmi:id=""_18_0beta_8f90291_1393586854466_107472_5304"" general=""_18_0beta_8f90291_1393586854372_425176_5050""/>
+  </packagedElement>
+</packagedElement>","<packagedElement xmi:type=""uml:Package"" xmi:id=""_mission_pkg"" name=""Mission Package"">
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_main_mission"" name=""Perform Mission"">
+    <include xmi:type=""uml:Include"" xmi:id=""_include_obs"" addition=""_provide_observation""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_comm"" addition=""_maintain_communication""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_traj"" addition=""_control_trajectory""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_sep"" addition=""_separate_launch_vehicle""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_launch"" addition=""_launch_spacecraft""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_deploy"" addition=""_deploy_mechanisms""/>
+    <extensionPoint xmi:type=""uml:ExtensionPoint"" xmi:id=""_fault_extension"" name=""fault_detected""/>
+    <extend xmi:type=""uml:Extend"" xmi:id=""_extend_failure"" extendedCase=""_main_mission"">
+      <extensionLocation xmi:idref=""_fault_extension""/>
+    </extend>
+  </packagedElement>
+
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_provide_observation"" name=""Provide Observation Data""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_maintain_communication"" name=""Maintain Communication with Ground""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_control_trajectory"" name=""Control Trajectory""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_separate_launch_vehicle"" name=""Separate from Launch Vehicle""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_launch_spacecraft"" name=""Launch Spacecraft""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_deploy_mechanisms"" name=""Deploy Mechanisms""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_mitigate_failures"" name=""Mitigate Failures"">
+    <extend xmi:type=""uml:Extend"" xmi:id=""_extend_mitigation"" extendedCase=""_main_mission"">
+      <extensionLocation xmi:idref=""_fault_extension""/>
+    </extend>
+  </packagedElement>
+</packagedElement>",28.608381,"Example 1:
+requirement: The system shall perform the Use Case function that includes the Included Use Case behavior (implemented by either UC1 or UC2) and may be extended by the Extended Use Case functionality when condition1 occurs.
+ context: nan
+ target model: <packagedElement xmi:type=""uml:Package"" xmi:id=""_18_0beta_8f90291_1393586854382_863076_5085"" name=""Functional Package"">
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854445_763989_5253"" name=""Use Case"" classifierBehavior=""_18_0beta_8f90291_1393586854481_114753_5353"">
+    <ownedComment xmi:type=""uml:Comment"" xmi:id=""_18_0beta_8f90291_1393586854440_241396_5204"" body=""The specification of a set of actions performed by a system, which yields an observable result that is, typically, of value for one or more actors or other stakeholders of the system.
+- Captures some actor-visible function
+- Achieves a discrete goal for the actor
+- Specifies complete functionality
+- Is named using a verb-noun combination, â€œdo this to thatâ€?  - 2-5 words is recommended name length
+  - More details can be provided in description
+"">
+      <annotatedElement xmi:idref=""_18_0beta_8f90291_1393586854445_763989_5253""/>
+    </ownedComment>
+    <ownedBehavior xmi:type=""uml:Activity"" xmi:id=""_18_0beta_8f90291_1393586854481_114753_5353"" name=""Use Case"">
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_18_0beta_8f90291_1393586854341_84647_4924"" visibility=""public"" source=""_18_0beta_8f90291_1393586854345_834134_4975"" target=""_18_0beta_8f90291_1393586854351_549520_4997"">
+        <weight xmi:type=""uml:LiteralUnlimitedNatural"" xmi:id=""_18_0beta_8f90291_1393586854313_54177_4831"" value=""1""/>
+      </edge>
+      <edge xmi:type=""uml:ControlFlow"" xmi:id=""_18_0beta_8f90291_1393586854391_94198_5126"" visibility=""public"" source=""_18_0beta_8f90291_1393586854351_549520_4997"" target=""_18_0beta_8f90291_1393586854305_928883_4728"">
+        <weight xmi:type=""uml:LiteralUnlimitedNatural"" xmi:id=""_18_0beta_8f90291_1393586854344_928402_4959"" value=""1""/>
+      </edge>
+      <node xmi:type=""uml:InitialNode"" xmi:id=""_18_0beta_8f90291_1393586854345_834134_4975"" visibility=""public""/>
+      <node xmi:type=""uml:ActivityFinalNode"" xmi:id=""_18_0beta_8f90291_1393586854305_928883_4728"" visibility=""public""/>
+      <node xmi:type=""uml:CallBehaviorAction"" xmi:id=""_18_0beta_8f90291_1393586854351_549520_4997"" visibility=""public""/>
+    </ownedBehavior>
+    <extensionPoint xmi:type=""uml:ExtensionPoint"" xmi:id=""_18_0beta_8f90291_1393586854386_201966_5095"" name=""condition1"" visibility=""public"">
+      <extension xmi:idref=""_18_0beta_8f90291_1393586854362_910142_5023""/>
+    </extensionPoint>
+    <include xmi:type=""uml:Include"" xmi:id=""_18_0beta_8f90291_1393586854386_301459_5102"" visibility=""public"" addition=""_18_0beta_8f90291_1393586854372_425176_5050"">
+      <ownedComment xmi:type=""uml:Comment"" xmi:id=""_18_0beta_8f90291_1393586854477_296666_5318"" body=""Defines that a use case contains the behavior defined in included use case.
+"">
+        <annotatedElement xmi:idref=""_18_0beta_8f90291_1393586854386_301459_5102""/>
+      </ownedComment>
+    </include>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854372_425176_5050"" name=""Included Use Case"" isAbstract=""true""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854344_960289_4954"" name=""Extended Use Case"">
+    <extend xmi:type=""uml:Extend"" xmi:id=""_18_0beta_8f90291_1393586854362_910142_5023"" visibility=""public"" extendedCase=""_18_0beta_8f90291_1393586854445_763989_5253"">
+      <extensionLocation xmi:idref=""_18_0beta_8f90291_1393586854386_201966_5095""/>
+      <ownedComment xmi:type=""uml:Comment"" xmi:id=""_18_0beta_8f90291_1393586854386_683288_5103"" body=""specifies that the behavior of a use case may be extended by the behavior of another (usually supplementary) use case.
+"">
+        <annotatedElement xmi:idref=""_18_0beta_8f90291_1393586854362_910142_5023""/>
+      </ownedComment>
+    </extend>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854440_683940_5207"" name=""UC1"">
+    <generalization xmi:type=""uml:Generalization"" xmi:id=""_18_0beta_8f90291_1393586854466_688714_5305"" general=""_18_0beta_8f90291_1393586854372_425176_5050""/>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393586854383_924574_5090"" name=""UC2"">
+    <generalization xmi:type=""uml:Generalization"" xmi:id=""_18_0beta_8f90291_1393586854466_107472_5304"" general=""_18_0beta_8f90291_1393586854372_425176_5050""/>
+  </packagedElement>
+</packagedElement>
+
+Example 2:
+requirement: The system shall perform the Use Case to satisfy the Requirement.
+ context: nan
+ target model: <packagedElement xmi:type=""uml:Package"" xmi:id=""_18_0beta_8f90291_1394025584529_260175_9418"" name=""Requirement Diagram"">
+  <packagedElement xmi:type=""uml:Class"" xmi:id=""_18_0beta_8f90291_1393589580107_621846_11692"" name=""class""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_18_0beta_8f90291_1393588343801_177821_10382"" name=""Use Case""/>
+  <packagedElement xmi:type=""uml:Class"" xmi:id=""_18_0beta_8f90291_1393588306585_689856_10305"" name=""Requirement""/>
+  <packagedElement xmi:type=""uml:Abstraction"" xmi:id=""_18_0beta_8f90291_1393588371604_873514_10460"">
+    <client xmi:idref=""_18_0beta_8f90291_1393588343801_177821_10382""/>
+    <supplier xmi:idref=""_18_0beta_8f90291_1393588306585_689856_10305""/>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:Abstraction"" xmi:id=""_18_0beta_8f90291_1394025855484_5501_15593"">
+    <client xmi:idref=""_18_0beta_8f90291_1393589580107_621846_11692""/>
+    <supplier xmi:idref=""_18_0beta_8f90291_1393588306585_689856_10305""/>
+  </packagedElement>
+</packagedElement>
+
+Example 3:
+requirement: The Hybrid SUV shall enable the driver to drive the vehicle by integrating acceleration, steering, and braking functions.
+ context: nan
+ target model: <packagedElement xmi:type=""uml:Package"" xmi:id=""_16_0beta1_1b500480_1221554241875_872010_4879"" name=""HSUV UseCases"">
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221638319631_270720_8830"" name=""Drive Car""/>
+  <packagedElement xmi:type=""uml:Model"" xmi:id=""_16_0beta1_1b500480_1221556031743_530122_5523"" name=""Hybrid SUV"">
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556442498_204132_5891"" name=""Steer""/>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556449139_616713_5909"" name=""Brake""/>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556156619_920593_5649"" name=""Insure the vehicle""/>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556138932_231733_5621"" name=""Operate the vehicle""/>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556179713_760677_5679"" name=""Maintain the vehicle""/>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556417123_920396_5855"" name=""Start the vehicle"">
+      <extend xmi:type=""uml:Extend"" xmi:id=""_16_0beta1_1b500480_1221556493171_82894_5956"" visibility=""public"" extendedCase=""_16_0beta1_1b500480_1221556399685_144427_5819""/>
+    </packagedElement>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556430373_368564_5873"" name=""Accelerate""/>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556399685_144427_5819"" name=""Drive the vehicle"">
+      <include xmi:type=""uml:Include"" xmi:id=""_16_0beta1_1b500480_1221556507046_385921_5962"" visibility=""public"" addition=""_16_0beta1_1b500480_1221556430373_368564_5873""/>
+      <include xmi:type=""uml:Include"" xmi:id=""_16_0beta1_1b500480_1221556510249_792940_5965"" visibility=""public"" addition=""_16_0beta1_1b500480_1221556442498_204132_5891""/>
+      <include xmi:type=""uml:Include"" xmi:id=""_16_0beta1_1b500480_1221556512702_155879_5968"" visibility=""public"" addition=""_16_0beta1_1b500480_1221556449139_616713_5909""/>
+    </packagedElement>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556407529_317012_5837"" name=""Park"">
+      <include xmi:type=""uml:Include"" xmi:id=""_16_0beta1_1b500480_1221556519952_617868_5971"" visibility=""public"" addition=""_16_0beta1_1b500480_1221556449139_616713_5909""/>
+    </packagedElement>
+    <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_16_0beta1_1b500480_1221556165994_505501_5664"" name=""Register the vehicle""/>
+  </packagedElement>
+</packagedElement>","<packagedElement xmi:type=""uml:Package"" xmi:id=""_mission_pkg"" name=""Mission Package"">
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_main_mission"" name=""Perform Mission"">
+    <include xmi:type=""uml:Include"" xmi:id=""_include_obs"" addition=""_provide_observation""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_ops"" addition=""_maintain_operations""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_traj"" addition=""_control_trajectory""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_sep"" addition=""_separate_launch_vehicle""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_launch"" addition=""_launch_spacecraft""/>
+    <include xmi:type=""uml:Include"" xmi:id=""_include_deploy"" addition=""_deploy_mechanisms""/>
+    <extensionPoint xmi:type=""uml:ExtensionPoint"" xmi:id=""_fault_extension"" name=""fault_detected""/>
+  </packagedElement>
+
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_provide_observation"" name=""Provide Observation Data""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_maintain_operations"" name=""Maintain Operations"">
+    <include xmi:type=""uml:Include"" xmi:id=""_include_comm"" addition=""_communicate_ground""/>
+  </packagedElement>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_communicate_ground"" name=""Communicate with Ground""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_control_trajectory"" name=""Control Trajectory""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_separate_launch_vehicle"" name=""Separate from Launch Vehicle""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_launch_spacecraft"" name=""Launch Spacecraft""/>
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_deploy_mechanisms"" name=""Deploy Mechanisms""/>
+
+  <packagedElement xmi:type=""uml:UseCase"" xmi:id=""_mitigate_failures"" name=""Mitigate Failures"">
+    <extend xmi:type=""uml:Extend"" xmi:id=""_extend_fault"" extendedCase=""_main_mission"">
+      <extensionLocation xmi:idref=""_fault_extension""/>
+    </extend>
+  </packagedElement>
+</packagedElement>",28.878963,0.625,0.75,0.75,0.75,0.75,0.875,1,1,1,1,1,1
